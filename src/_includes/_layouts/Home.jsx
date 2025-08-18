@@ -1,4 +1,7 @@
-export default function Layout({ title, children, comp }) {
+import NavBar from "../../_components/NavBar.jsx";
+import MainPage from "../../_components/MainPage.jsx";
+
+export default function Layout({ title, children, ...props }) {
   return (
     <html>
       <head>
@@ -8,7 +11,8 @@ export default function Layout({ title, children, comp }) {
         <link rel="stylesheet" href="/style.css" />
       </head>
       <body>
-        <comp.NavBar/>
+        <NavBar />
+        <MainPage {...props} />
       </body>
     </html>
   );
