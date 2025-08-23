@@ -26,7 +26,6 @@ export default function Students({ title }) {
             </p>
             <hr className="border-gray-400 mb-8" />
 
-            {/* Danial Ghasimi */}
             <StudentCard
                 photo="/assets/danial.jpg"
                 name="Danial Ghasimi (Fall 2021 - current)"
@@ -35,7 +34,6 @@ export default function Students({ title }) {
                 about="I am from Kurdistan, Iran and I joined Stevens for my Ph.D. in fall of 2021. Prior to Stevens, I graduated from the University of Tehran with a master's degree. My past experience includes fluid-structure interaction (FSI) modeling of axons in a microchannel. For my Ph.D. research, I am focusing on FSI Modeling for High-Speed Parachute Inflations for Mars entry, descent, & landing (EDL). In my free time, I enjoy watching movies and talking about films, biking, and walking."
             />
 
-            {/* Andrew Sayad */}
             <StudentCard
                 photo="/assets/andrew.jpg"
                 name="Andrew Sayad (Fall 2022 - current)"

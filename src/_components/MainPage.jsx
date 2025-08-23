@@ -6,7 +6,7 @@ export default function MainPage ({ aboutTitle, aboutText, educationTitle, educa
                 {/* Profile Image */}
                 <div className="w-64 h-64 rounded-full overflow-hidden mb-6">
                     <img 
-                        src="/path-to-profile-image.jpg" 
+                        src="/assets/pfp.png" 
                         alt="Jason Rabinovitch"
                         className="w-full h-full object-cover"
                     />
