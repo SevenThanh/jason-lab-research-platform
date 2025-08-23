@@ -3,7 +3,7 @@ import MainPage from "../../_components/MainPage.jsx";
 import RecentNews from "../../_components/RecentNews.jsx";
 import RecentPubs from "../../_components/RecentPubs.jsx";
 
-export default function Layout({ title, children, ...props }) {
+export default function Layout({ title, comp, chilldren, ...props }) {
   return (
     <html>
       <head>
@@ -20,7 +20,7 @@ export default function Layout({ title, children, ...props }) {
           <RecentNews />
           <RecentPubs />
         </div>
-        {children}
+        {chilldren  }
       </body>
     </html>
   );
