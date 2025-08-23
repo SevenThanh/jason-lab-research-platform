@@ -33,5 +33,6 @@ site.use(
 site.use(jsx());
 site.use(postcss());
 site.add("style.css"); 
+site.copy("assets");
 
 export default site;
