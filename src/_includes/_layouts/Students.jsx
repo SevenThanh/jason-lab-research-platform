@@ -24,10 +24,10 @@ export default function Students({ title }) {
                 <li>Example (paper, ppt, etc.) of recent relevant research or project experience</li>
                 </ul>
             </p>
-            <hr className="border-gray-400 mb-8" />
+            <hr className="border-gray-400 mb-8 mt-8" />
 
             <StudentCard
-                photo="/assets/danial.jpg"
+                photo="/assets/stu1.png"
                 name="Danial Ghasimi (Fall 2021 - current)"
                 project="FSI Modeling for High-Speed Parachute Inflations"
                 contact="sghasimi@stevens.edu"
@@ -35,7 +35,7 @@ export default function Students({ title }) {
             />
 
             <StudentCard
-                photo="/assets/andrew.jpg"
+                photo="/assets/stu2.png"
                 name="Andrew Sayad (Fall 2022 - current)"
                 project="Shockwave/Droplet Interaction Modeling"
                 contact="asayad1@stevens.edu"
