@@ -15,12 +15,11 @@ export default function Layout({ title, comp, chilldren, ...props }) {
       <body className="bg-gray-100 min-h-screen">
         <NavBar />
         <MainPage {...props} />
-        {/* Main Two-Column Block Section */}
         <div className="flex flex-col md:flex-row gap-8 justify-between max-w-6xl mx-auto my-12 px-4">
           <RecentNews />
           <RecentPubs />
         </div>
-        {chilldren  }
+        {chilldren }
       </body>
     </html>
   );

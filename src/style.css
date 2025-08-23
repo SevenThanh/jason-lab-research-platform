@@ -1,4 +1,4 @@
-@import "tailwindcss";           /* v4 syntax — one line is enough */
+@import "tailwindcss";         
 @plugin "@tailwindcss/typography";
 @tailwind base;
 @tailwind components;

@@ -32,7 +32,7 @@ export default function Research({ title }) {
             imageAlt="Enceladus Plume Diagram"
             imageDesc="Schematic of the Cryo-Erupt model. For more details, see our recent paper!"
             title="Modeling the Enceladus Plume!"
-            link="https://example.com/enceladus-paper"
+            link=""
             description="The Cassini spacecraft discovered a plume at Enceladus, a moon of Saturn, in the early 2000s. In a recent paper, we investigate how gases dissolved in Enceladus' ocean could contribute to the eruption process at Enceladus. Our poster from AGU in the fall of 2024 can be seen here."
           />
 
@@ -41,7 +41,7 @@ export default function Research({ title }) {
             imageAlt="Shock Aerobreakup Simulation"
             imageDesc="Schematic of shock/breakup simulation. Collaboration with Prof. Desjardins's research group at Cornell."
             title="Shock/Droplet Aerobreakup and Impact/Damage Modeling"
-            link="https://github.com/desjardi/NG2A"
+            link=""
             description="When a high-speed vehicle flies through adverse weather conditions, such as a storm cloud, water droplets and other particulates will impact the vehicle. These impacts can cause damage to the vehicle. In collaboration with Prof. Desjardins's research group at Cornell University, we use the NG2A computational suite to investigate shock/droplet interactions, focusing on droplet breakup and impact."
           />
 

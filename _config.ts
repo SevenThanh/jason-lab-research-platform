@@ -15,9 +15,10 @@ const site = lume({
 
 site.use(
   tailwindcss({
-    extensions: [".html", ".js", ".njk", ".jsx"],
+  extensions: [".html", ".js", ".njk", ".jsx"],
+
     options: {
-      content: ["./src/**/*.html", "./src/**/*.njk", "./src/**/*.jsx"],
+      content: ["./src/**/*.html", "./src/**/*.njk", "./src/**/*.jsx", "./src/**/*.js"],
       theme: {
         extend: {
           colors: {
