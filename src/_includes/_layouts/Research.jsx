@@ -12,13 +12,13 @@ export default function Research({ title }) {
       </head>
       <body className="bg-gray-100 min-h-screen">
         <NavBar />
-        <section className="max-w-4xl mx-auto my-12 px-4">
+        <section className="max-w-6xl mx-auto my-12 px-4">
           <p className="text-lg md:text-xl text-gray-800 font-medium mb-4">
             In the Rabinovitch Research Group, we combine our fundamental interests in Computational Fluid Dynamics (CFD) and high-speed flows, and apply these interests to research topics related to space exploration, high-speed vehicle designs, planetary science and more! Below are some example research topics that we currently work on:
           </p>
           <hr className="border-gray-400 mb-8" />
           
-          {/* Example research cards */}
+          {/* Research cards */}
           <ResearchCard
             imageSrc="/assets/proj1.png"
             imageAlt="Supersonic Parachute"
@@ -28,7 +28,7 @@ export default function Research({ title }) {
           />
 
           <ResearchCard
-            imageSrc="/assets/enceladus.jpg"
+            imageSrc="/assets/proj2.jpg"
             imageAlt="Enceladus Plume Diagram"
             imageDesc="Schematic of the Cryo-Erupt model. For more details, see our recent paper!"
             title="Modeling the Enceladus Plume!"
@@ -37,7 +37,7 @@ export default function Research({ title }) {
           />
 
           <ResearchCard
-            imageSrc="/assets/shock_aerobreakup.jpg"
+            imageSrc="/assets/proj3.jpg"
             imageAlt="Shock Aerobreakup Simulation"
             imageDesc="Schematic of shock/breakup simulation. Collaboration with Prof. Desjardins's research group at Cornell."
             title="Shock/Droplet Aerobreakup and Impact/Damage Modeling"
@@ -46,7 +46,7 @@ export default function Research({ title }) {
           />
 
           <ResearchCard
-            imageSrc="/assets/vatmos.jpg"
+            imageSrc="/assets/proj4.png"
             imageAlt="VATMOS Poster"
             title="Venus ATMOSpheric - Sample Return (VATMOS-SR Mission Concept)"
             description="Have you ever thought about what it would take to bring a sample of the Venus atmosphere back to Earth for analysis? The VATMOS-SR mission concept would do exactly that! Please see our poster below from the LPSC 2025 conference to learn more about this exciting mission concept!"

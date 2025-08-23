@@ -8,7 +8,7 @@ export default function ResearchCard({
 }) {
   return (
     <div className="bg-gray-200 rounded-lg p-6 flex flex-col md:flex-row items-start gap-4 mb-8 shadow">
-      <div className="md:w-56 w-full flex-shrink-0">
+      <div className="md:w-72 w-full flex-shrink-0">
         <img src={imageSrc} alt={imageAlt} className="rounded mb-2 w-full h-auto object-contain" />
         {imageDesc && (
           <div className="text-xs text-gray-600 mt-1">
