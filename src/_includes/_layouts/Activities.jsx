@@ -13,7 +13,7 @@ export default function Activities({ title }) {
       <body className="bg-gray-100 min-h-screen">
         <NavBar />
         <section className="max-w-6xl mx-auto my-12 px-4">
-          <h2 className="text-2xl font-bold mb-8">Recent News</h2>
+          <h2 className="text-2xl font-bold mb-8">News</h2>
 
           <NewsCard
             date="March 10th, 2025"
