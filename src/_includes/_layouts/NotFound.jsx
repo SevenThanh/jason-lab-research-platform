@@ -12,7 +12,7 @@ export default function NotFound() {
 
             <h1 className="text-4xl font-bold text-gray-800 mb-4">
               404 Error!{" "}
-              <a href="/" className="text-[#8A9A5B] hover:underline">
+              <a href="/" className="text-white hover:underline">
                 Click here to go to the homepage.
               </a>
             </h1>

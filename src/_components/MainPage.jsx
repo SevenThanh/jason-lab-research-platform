@@ -1,6 +1,6 @@
 export default function MainPage ({ aboutTitle, aboutText, educationTitle, education }) {
     return (
-        <div className="flex justify-center max-w-6xl mx-auto p-8 gap-16">
+        <div className="flex justify-center max-w-7xl mx-auto p-8 gap-32">
             {/* Left Side - Profile Information */}
             <div className="flex flex-col items-center w-96">
                 {/* Profile Image */}
