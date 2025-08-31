@@ -8,11 +8,6 @@ export default function NotFound() {
         <main>
           <div className="flex flex-col items-center justify-center min-h-screen px-4 py-12 text-center">
             <div className="mb-8">
-              <img
-                src="/assets/placeholder.png"
-                alt="NJ Appleseed Logo"
-                className="w-48 h-auto mx-auto"
-              />
             </div>
 
             <h1 className="text-4xl font-bold text-gray-800 mb-4">
