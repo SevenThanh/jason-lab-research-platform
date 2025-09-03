@@ -22,13 +22,13 @@ export default function MainPage ({ aboutTitle, aboutText, educationTitle, educa
                 
                 {/* Social Media Icons */}
                 <div className="flex space-x-4">
-                    <a href="#linkedin" className="w-12 h-12 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors">
+                    <a href="https://www.linkedin.com/in/jason-rabinovitch-729b3185/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors">
                         <span className="text-white text-xl">in</span>
                     </a>
-                    <a href="#email" className="w-12 h-12 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors">
+                    <a href="mailto:jrabinov@research.stevens.edu" className="w-12 h-12 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors">
                         <span className="text-white text-xl">✉</span>
                     </a>
-                    <a href="#google" className="w-12 h-12 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors">
+                    <a href="https://scholar.google.com/citations?user=hQRtV44AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors">
                         <span className="text-white text-xl">G</span>
                     </a>
                 </div>
