@@ -1,4 +1,9 @@
 {
+  "redirects": [
+    { "source": "/Research", "destination": "/research/", "permanent": false },
+    { "source": "/Students", "destination": "/students/", "permanent": false },
+    { "source": "/Activities", "destination": "/activities/", "permanent": false }
+  ],
   "rewrites": [
     { "source": "/(.*)/", "destination": "/$1/index.html" },
     { "source": "/(.*)", "destination": "/$1/index.html" }

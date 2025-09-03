@@ -21,8 +21,7 @@ site.use(
       content: ["./src/**/*.html", "./src/**/*.njk", "./src/**/*.jsx", "./src/**/*.js"],
       theme: {
         extend: {
-          colors: {
-
+          colors: {     
           },
         },
       },
