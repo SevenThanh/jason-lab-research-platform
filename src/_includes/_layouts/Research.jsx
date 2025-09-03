@@ -17,6 +17,22 @@ export default function Research({ title }) {
             In the Rabinovitch Research Group, we combine our fundamental interests in Computational Fluid Dynamics (CFD) and high-speed flows, and apply these interests to research topics related to space exploration, high-speed vehicle designs, planetary science and more! Below are some example research topics that we currently work on:
           </p>
           <hr className="border-gray-400 mb-8" />
+          {/*
+            This is where you show research topics.
+
+            To add a new research project, just add a new <ResearchCard /> below.  
+            Example:
+
+            <ResearchCard
+              title="Project Title"
+              description="Explain your research in a sentence or two."
+              image="/src/assets/yourphoto.jpg" // Optional: put your image in src/assets and use the file name here
+            />
+
+            - Copy and paste as many <ResearchCard /> as you want.
+            - Remove a <ResearchCard /> to take away a project.
+            - For a picture, your image must be saved inside src/assets. Then, edit the image line to match.
+          */}
           
           <ResearchCard
             imageSrc="/assets/proj1.png"

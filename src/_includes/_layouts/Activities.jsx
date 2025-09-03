@@ -15,6 +15,24 @@ export default function Activities({ title }) {
         <section className="max-w-6xl mx-auto my-12 px-4">
           <h2 className="text-2xl font-bold mb-8">News</h2>
 
+          {/* 
+              To show activities on your website, just add or remove <NewsCard /> below.  
+              Each <NewsCard /> is a box that shows an activity.  
+              Example for adding a new card:
+              
+              <NewsCard
+                title="Activity Title"
+                date="2025-09-03"
+                description="Short description here."
+                // If you want to show an image, add: image="/src/assets/yourphoto.jpg"
+              />
+              
+              - Copy and paste the example above for as many activities as you want to show.
+              - To remove an activity, delete its whole <NewsCard /> line.
+              - If you want to show a photo, put your photo inside the src/assets folder,
+                then change image="..." to match your file name (include the /src/assets/ part).
+            */}
+
           <NewsCard
             date="March 10th, 2025"
             text="Prof. Rabinovitch attends The 56th Lunar and Planetary Science Conference (LPSC) in the Woodlands, Texas, and presents a poster on the [VATMOS-SR Mission Concept](https://www.lpi.usra.edu)." 

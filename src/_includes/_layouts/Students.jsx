@@ -25,6 +25,21 @@ export default function Students({ title }) {
                 </ul>
             </p>
             <hr className="border-gray-400 mb-8 mt-8" />
+            {/*
+                This is for listing the members in your group.
+                To add a student, add a new <StudentCard /> below.  
+                
+                Example:
+                <StudentCard
+                  name="Student Name"
+                  bio="Short info about them goes here."
+                  photo="/src/assets/yourphoto.jpg" // Optional: add their photo to src/assets folder
+                />
+
+                - Copy and paste <StudentCard /> for each student you want to add.
+                - To remove a student, delete their <StudentCard /> code.
+                - Add or change the photo by saving it in src/assets and updating the photo="..." line.
+              */}
             <StudentCard
                 photo="/assets/stu1.png"
                 name="Danial Ghasimi (Fall 2021 - current)"
