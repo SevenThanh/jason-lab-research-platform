@@ -25,7 +25,6 @@ export default function Students({ title }) {
                 </ul>
             </p>
             <hr className="border-gray-400 mb-8 mt-8" />
-
             <StudentCard
                 photo="/assets/stu1.png"
                 name="Danial Ghasimi (Fall 2021 - current)"

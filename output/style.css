@@ -482,9 +482,6 @@
   .break-all {
     word-break: break-all;
   }
-  .text-\[\#8A9A5B\] {
-    color: #8A9A5B;
-  }
   .text-black {
     color: var(--color-black);
   }

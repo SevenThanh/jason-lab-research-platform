@@ -18,7 +18,6 @@ export default function Research({ title }) {
           </p>
           <hr className="border-gray-400 mb-8" />
           
-          {/* Research cards */}
           <ResearchCard
             imageSrc="/assets/proj1.png"
             imageAlt="Supersonic Parachute"
